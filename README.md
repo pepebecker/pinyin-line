@@ -5,7 +5,7 @@
 [![MIT-licensed](https://img.shields.io/github/license/pepebecker/pinyin-line.svg)](https://opensource.org/licenses/MIT)
 [![chat on gitter](https://badges.gitter.im/pepebecker.svg)](https://gitter.im/pepebecker)
 
-## [Add Pinyin Bot on LINE](https://line.me/R/ti/p/5wyw_KMB3s)
+<a href="https://line.me/R/ti/p/%40dqh2644q"><img height="36" border="0" alt="Add Friends." src="https://scdn.line-apps.com/n/line_add_friends/btn/en.png"></a>
 
 ## Usage
 
