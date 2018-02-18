@@ -1,5 +1,7 @@
 # Pinyin LINE
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pepebecker/pinyin-line.svg)](https://greenkeeper.io/)
+
 [![dependency status](https://img.shields.io/david/pepebecker/pinyin-line.svg)](https://david-dm.org/pepebecker/pinyin-line)
 [![dev dependency status](https://img.shields.io/david/dev/pepebecker/pinyin-line.svg)](https://david-dm.org/pepebecker/pinyin-line#info=devDependencies)
 [![MIT-licensed](https://img.shields.io/github/license/pepebecker/pinyin-line.svg)](https://opensource.org/licenses/MIT)
