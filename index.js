@@ -23,7 +23,7 @@ const handleEvent = async event => {
 const app = express()
 
 app.get('/', (req, res) => {
-  res.redirect(301, 'https://line.me/R/ti/p/5wyw_KMB3s')
+  res.send('<a href="https://line.me/R/ti/p/5wyw_KMB3s">Add Pinyin Bot on LINE</a>')
 })
 
 app.post('/', line.middleware(config), (req, res) => {
