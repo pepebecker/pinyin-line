@@ -24,6 +24,7 @@
   "dependencies": {
     "@line/bot-sdk": "^5.2.0",
     "express": "^4.16.2",
+    "ip": "^1.1.5",
     "line-bot": "0.0.1",
     "pinyin-bot-core": "github:pepebecker/pinyin-bot-core"
   },
