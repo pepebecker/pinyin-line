@@ -6,12 +6,7 @@ const express = require('express')
 const http = require('http')
 const ip = require('ip')
 
-const config = {
-  channelAccessToken: 'TOKEN',
-  channelSecret: 'SECRET'
-}
-
-const client = new line.Client(config)
+const client = new line.Client(require('./options.json'))
 
 const handleEvent = async event => {
   if (event.type !== 'message' || event.message.type !== 'text') {
