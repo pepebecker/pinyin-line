@@ -5,8 +5,9 @@ const line = require('@line/bot-sdk')
 const express = require('express')
 const http = require('http')
 const ip = require('ip')
+const config = require('./config.json')
 
-const client = new line.Client(require('./options.json'))
+const client = new line.Client(config)
 
 const handleEvent = async event => {
   if (event.type !== 'message' || event.message.type !== 'text') {
