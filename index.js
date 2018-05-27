@@ -5,7 +5,11 @@ const line = require('@line/bot-sdk')
 const express = require('express')
 const http = require('http')
 const ip = require('ip')
-const config = require('./config.json')
+
+const config = {
+  channelAccessToken: process.env.PINYIN_LINE_CHANNEL_TOKEN,
+  channelSecret: process.env.PINYIN_LINE_CHANNEL_SECRECT
+}
 
 const client = new line.Client(config)
 
@@ -23,7 +27,7 @@ const handleEvent = async event => {
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('<a href="https://line.me/R/ti/p/5wyw_KMB3s">Add Pinyin Bot on LINE</a>')
+  res.send('<a href="https://line.me/R/ti/p/EIIokCwmTr">Add Pinyin Bot on LINE</a>')
 })
 
 app.post('/', line.middleware(config), (req, res) => {

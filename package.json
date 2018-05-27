@@ -2,33 +2,34 @@
   "name": "pinyin-line",
   "version": "1.0.0",
   "description": "LINE bot to transliterate Mandarin to Pinyin with tone marks and tone numbers ",
+  "keywords": [
+    "bot",
+    "chinese",
+    "hanzi",
+    "line",
+    "mandarin",
+    "pinyin"
+  ],
+  "license": "MIT",
+  "author": "Pepe Becker <mail@pepebecker.com> (http://pepebecker.com)",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "watch": "nodemon index.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pepebecker/pinyin-line.git"
   },
-  "keywords": [
-    "line",
-    "bot",
-    "hanzi",
-    "pinyin",
-    "chinese",
-    "mandarin"
-  ],
-  "author": "Pepe Becker <mail@pepebecker.com> (http://pepebecker.com)",
-  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "deploy": "pm2 deploy ecosystem.config.js production"
+  },
   "dependencies": {
-    "@line/bot-sdk": "^5.2.0",
-    "express": "^4.16.2",
+    "@line/bot-sdk": "^6.0.2",
+    "express": "^4.16.3",
     "ip": "^1.1.5",
     "line-bot": "0.0.1",
-    "pinyin-bot-core": "github:pepebecker/pinyin-bot-core"
+    "pinyin-bot-core": "^1.7.0"
   },
   "devDependencies": {
-    "nodemon": "^1.15.0"
+    "nodemon": "^1.17.5"
   }
 }
