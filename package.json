@@ -27,7 +27,7 @@
     "express": "^4.16.4",
     "ip": "^1.1.5",
     "line-bot": "0.0.1",
-    "pinyin-bot-core": "^1.15.0"
+    "pinyin-bot-core": "^1.16.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
